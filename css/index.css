@@ -54,7 +54,10 @@ a {
 }
 
 .menu-container {
-  margin: -5px 70px;
+  margin-top: -5px;
+  margin-right:  70px;
+  margin-bottom: -5px;
+  margin-left:  70px;
 }
 
 .menu {
@@ -75,8 +78,8 @@ a {
   flex-direction: row;
   justify-content:space-between;
   flex-wrap: nowrap;
-  padding-left: 40px;
   padding-bottom: 10px;
+  padding-left: 40px;
 }
 
 .tag {
@@ -103,14 +106,14 @@ a {
 }
 
 .catalog {
-  padding-left: 43px;
   padding-right: 69px;
+  padding-left: 43px;
 }
 
 .catalog-title {
   padding-top: 3px;
-  margin-left: -5px;
   margin-bottom: 29px;
+  margin-left: -5px;
 }
 
 .masonry {
@@ -153,9 +156,9 @@ a {
 
 .signature-right {
   margin-top: 0;
-  margin-left: 9px;
-  margin-bottom: 13px;
   margin-right: 1px;
+  margin-bottom: 13px;
+  margin-left: 9px;
 }
 
 .signature-left {
@@ -168,16 +171,16 @@ a {
   flex-direction: row;
   justify-content:space-between;
   flex-wrap: nowrap;
-  margin-left: 42px;
-  margin-right: 67px;
   margin-top: 8px;
+  margin-right: 67px;
+  margin-left: 42px;
 }
 
 .footer-columns {
   width: 289px;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   flex-wrap: nowrap;
 }
 
