@@ -1,7 +1,14 @@
+*{box-sizing: border-box;}
+
 body {
   font-family: 'PT Sans', sans-serif;
   color: #000000;
   font-weight: 400;
+  margin: 0;
+}
+
+h1, h2, p {
+  margin: 0;
 }
 
 h1 {
@@ -19,7 +26,10 @@ h2 {
 p {
   font-size: 14px;
   line-height: 16px;
-  margin-bottom: -1px;
+}
+
+p:not(:last-of-type) {
+  margin-bottom: 12px;
 }
 
 ul {
@@ -32,9 +42,20 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 1000px;
+.header-container {
+  max-width: 1000px;
   margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 70px;
+  background-color: #F5F5F0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 70px;
+  background-color: #e5343d;
 }
 
 .header {
@@ -42,22 +63,14 @@ a {
   flex-direction: row;
   justify-content:space-between;
   flex-wrap: nowrap;
-  background-color: #F5F5F0;
-  margin-top: -10px;
 }
 
 .logo {
   font-size: 42px;
   line-height: 47px;
-  margin-top: 4px;
-  margin-left: 39px;
 }
 
 .menu-container {
-  margin-top: -5px;
-  margin-right:  70px;
-  margin-bottom: -5px;
-  margin-left:  70px;
 }
 
 .menu {
@@ -73,47 +86,32 @@ a {
 }
 
 .first-screen {
-  background-color: #F5F5F0;
   display: flex;
   flex-direction: row;
   justify-content:space-between;
   flex-wrap: nowrap;
-  padding-bottom: 10px;
-  padding-left: 40px;
 }
 
 .tag {
   font-size: 23px;
   line-height: 26px;
-  margin-top: 26px;
-  margin-left: 1px;
 }
 
 .title {
-  margin-top: 15px;
-  margin-left: -6px;
 }
 
 .first-screen-text {
   width: 380px;
-  margin-top: 173px;
-  margin-left: 1px;
 }
 
 .first-screen-img {
-  margin-top: 22px;
-  margin-right: 21px;
 }
 
 .catalog {
-  padding-right: 69px;
-  padding-left: 43px;
 }
 
 .catalog-title {
-  padding-top: 3px;
-  margin-bottom: 29px;
-  margin-left: -5px;
+
 }
 
 .masonry {
@@ -155,15 +153,9 @@ a {
 }
 
 .signature-right {
-  margin-top: 0;
-  margin-right: 1px;
-  margin-bottom: 13px;
-  margin-left: 9px;
 }
 
 .signature-left {
-  margin-top: 1px;
-  margin-bottom: 12px;
 }
 
 .footer {
@@ -171,13 +163,9 @@ a {
   flex-direction: row;
   justify-content:space-between;
   flex-wrap: nowrap;
-  margin-top: 8px;
-  margin-right: 67px;
-  margin-left: 42px;
 }
 
 .footer-columns {
-  width: 289px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -185,5 +173,4 @@ a {
 }
 
 .footer-text {
-  margin-top: 7px;
 }
